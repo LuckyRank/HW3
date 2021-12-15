@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		83DCF8D5276A4647001B60F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF8D4276A4647001B60F4 /* AppDelegate.swift */; };
 		83DCF8D7276A4647001B60F4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF8D6276A4647001B60F4 /* SceneDelegate.swift */; };
-		83DCF8D9276A4647001B60F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF8D8276A4647001B60F4 /* ViewController.swift */; };
+		83DCF8D9276A4647001B60F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF8D8276A4647001B60F4 /* MainViewController.swift */; };
 		83DCF8DC276A4647001B60F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DCF8DA276A4647001B60F4 /* Main.storyboard */; };
 		83DCF8DE276A464B001B60F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83DCF8DD276A464B001B60F4 /* Assets.xcassets */; };
 		83DCF8E1276A464B001B60F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DCF8DF276A464B001B60F4 /* LaunchScreen.storyboard */; };
+		83DCF8E9276A5ABF001B60F4 /* FinalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DCF8E8276A5ABF001B60F4 /* FinalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83DCF8D1276A4647001B60F4 /* HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83DCF8D4276A4647001B60F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83DCF8D6276A4647001B60F4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		83DCF8D8276A4647001B60F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83DCF8D8276A4647001B60F4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		83DCF8DB276A4647001B60F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83DCF8DD276A464B001B60F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83DCF8E0276A464B001B60F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83DCF8E2276A464B001B60F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83DCF8E8276A5ABF001B60F4 /* FinalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				83DCF8D4276A4647001B60F4 /* AppDelegate.swift */,
 				83DCF8D6276A4647001B60F4 /* SceneDelegate.swift */,
-				83DCF8D8276A4647001B60F4 /* ViewController.swift */,
+				83DCF8D8276A4647001B60F4 /* MainViewController.swift */,
+				83DCF8E8276A5ABF001B60F4 /* FinalViewController.swift */,
 				83DCF8DA276A4647001B60F4 /* Main.storyboard */,
 				83DCF8DD276A464B001B60F4 /* Assets.xcassets */,
 				83DCF8DF276A464B001B60F4 /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83DCF8D9276A4647001B60F4 /* ViewController.swift in Sources */,
+				83DCF8D9276A4647001B60F4 /* MainViewController.swift in Sources */,
+				83DCF8E9276A5ABF001B60F4 /* FinalViewController.swift in Sources */,
 				83DCF8D5276A4647001B60F4 /* AppDelegate.swift in Sources */,
 				83DCF8D7276A4647001B60F4 /* SceneDelegate.swift in Sources */,
 			);
