@@ -25,7 +25,6 @@
                                     </textField>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJY-8M-BPd">
                                         <rect key="frame" x="0.0" y="44" width="330" height="34"/>
-                                        <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -40,7 +39,8 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Log In"/>
                                 <connections>
-                                    <segue destination="sAu-Ky-Dl5" kind="presentation" modalPresentationStyle="fullScreen" id="Jvb-b3-k3h"/>
+                                    <action selector="logInPressed" destination="BYZ-38-t0r" eventType="touchUpInside" id="dIG-F3-wah"/>
+                                    <segue destination="sAu-Ky-Dl5" kind="presentation" identifier="showFinalVC" modalPresentationStyle="fullScreen" id="Jvb-b3-k3h"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="BGv-zC-HB4">
@@ -55,7 +55,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Forgot User Name?"/>
                                         <connections>
-                                            <action selector="UserNameAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="5l7-UZ-2av"/>
+                                            <action selector="userNameAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="5l7-UZ-2av"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R9g-3u-h0f">
@@ -66,7 +66,7 @@
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Forgot Password?"/>
                                         <connections>
-                                            <action selector="PasswordAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="YRG-PJ-JXu"/>
+                                            <action selector="passwordAction" destination="BYZ-38-t0r" eventType="touchUpInside" id="YRG-PJ-JXu"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -107,7 +107,7 @@
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Log Out"/>
                                 <connections>
-                                    <segue destination="smH-d5-kpb" kind="unwind" unwindAction="unwindFor:" id="vFs-6P-CDI"/>
+                                    <segue destination="smH-d5-kpb" kind="unwind" unwindAction="unwindSegueWithSegue:" id="tax-Qe-rOF"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EeQ-5m-SPd">
